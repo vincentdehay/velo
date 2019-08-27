@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>formulaire de paiement</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/velo.css"/>
+
+
+</head>
+<body>
+    <div class="container">
+      
+      
+        <nav class="navbar navbar-expand-lg navbar"> 
+          <img src="img/logo_velo.png" id="logo" alt="Logo ma marque">
+          <a class="navbar-brand" href="index.html">loue ton vélo</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="">connecte-toi <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">inscris-toi</a>
+              </li>
+    
+            </ul>
+    
+          </div>
+        </nav>
+
+     
+  
+  
+  
+  
+  
+  
+        <form id=paiement>
+                <fieldset>
+                  <legend>Votre identité</legend>
+              
+                  <ol>
+                        <li>
+                        <label for=utilisateur>utilisateur</label>
+                        <input id=utilisateur name=utilisateur type=text placeholder="nom d'utilisateur" required autofocus>
+                    </li> 
+                    <li>
+                            <label for=motdepasse>mot de passe</label>
+                            <input id=motdepasse name=motdepasse type=text placeholder="saisir au moins 12 caractères" required autofocus>
+                        </li> 
+
+
+                    <li>
+                      <label for=nom>Nom</label>
+                      <input id=nom name=nom type=text placeholder="Prénom et nom" required autofocus>
+                    </li>
+                    
+                    <li>
+                    
+
+                      <label for=email>Email</label>
+                      <input id=email name=email type=email placeholder="exemple@domaine.com" required>
+                    </li>
+                    <li>
+                      <label for=telephone>Téléphone</label>
+                      <input id=telephone name=telephone type=tel placeholder="par ex&nbsp;: +3375500000000" required>
+                    </li>
+                  </ol>
+                </fieldset>
+              
+            
+                <fieldset>
+                  <legend>Informations CB</legend>
+                  <ol>
+                    <li>
+                      <fieldset>
+                        <legend>Type de carte bancaire</legend>
+                        <ol>
+                          <li>
+                            <input id=visa name=type_de_carte type=radio>
+                            <label for=visa>VISA</label>
+                          </li>
+                          <li>
+                            <input id=amex name=type_de_carte type=radio>
+                            <label for=amex>AmEx</label>
+                          </li>
+                          <li>
+                            <input id=mastercard name=type_de_carte type=radio>
+                            <label for=mastercard>Mastercard</label>
+                          </li>
+                          <li>
+                                <input id=paypal name=type_de_carte type=radio>
+                                <label for=mastercard>Paypal</label>
+                              </li>
+
+                        </ol>
+                      </fieldset>
+                    </li>
+                    <li>
+                      <label for=numero_de_carte>N° de carte</label>
+                      <input id=numero_de_carte name=numero_de_carte type=number required>
+                    </li>
+                    <li>
+                      <label for=securite>Code sécurité</label>
+                      <input id=securite name=securite type=number required>
+                    </li>
+                    <li>
+                      <label for=nom_porteur>Nom du porteur</label>
+                      <input id=nom_porteur name=nom_porteur type=text placeholder="Même nom que sur la carte" required>
+                    </li>
+                  </ol>
+                </fieldset>
+              
+                <fieldset>
+                  <button type=submit>Je réserve mon vélo</button>
+                </fieldset>
+              </form>
+              <br>
+              <br>
+              <br>
+                      <footer>
+                        <div class="container text-center">
+                          <small>Copyright &copy; Your Website</small>   
+                         <button type="button" class="btn btn-primary">facebook</button>
+                              <button type="button" class="btn btn-secondary">twitter</button>
+                              <button type="button" class="btn btn-success">instagram</button>
+              
+                        </div>
+                      </footer>
+              
+              
+              
+              
+                    </div>
+                  </div>
+              
+              
+              
+              
+                  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                    crossorigin="anonymous"></script>
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                    crossorigin="anonymous"></script>
+                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                    crossorigin="anonymous"></script>
+              
+              </body>
+              
+              </html>
